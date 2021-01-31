@@ -1,0 +1,79 @@
+body{
+    background:deeppink;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+.box{
+    width:fit-content;
+    padding: 30px;
+    top:50%;
+left:50%;
+   align-items: center;
+    background: violet;
+    text-align: center;
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    align-items: center;
+}
+
+.container{
+    max-width:960px;
+    margin:auto;
+    margin-top: 150px;
+    overflow: hidden;
+    padding: 0 3rem;
+  }
+  .showcase-inner{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  }
+  form{
+      border:3px solid purple
+  }
+.box input[type="text"],input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:3px solid purple;
+    padding: 14px 0px;
+
+    transition: 0.25px;
+    align-items: center;
+    width: 100%;
+
+  
+}
+
+.box input[type="text"].focus,input[type="password"].focus{
+    width: 220px;
+    border-color: violet;
+
+}
+.box input[type="submit"]{
+    cursor: pointer;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:3px solid purple;
+    padding: 14px 10px;
+    width:220px;
+    outline: none;
+    color: white;
+    transition: 0.25px;
+}
+.box input[type="submit"]:hover{
+    background: darkviolet;
+}
